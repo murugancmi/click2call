@@ -86,6 +86,6 @@ Using this callback you can get all the event in your call.
   //Data is JSON it contain event and status
   };
 ```
-## [List of event and status ](https://github.com)
+## [List of event and status ](https://github.com/telecmi/click2call/wiki/onStatus)
 
 
