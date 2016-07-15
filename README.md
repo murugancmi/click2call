@@ -1,6 +1,6 @@
 # Telecm: Click2Call API #
 
-Telecmi provides a complete, configurable, and easy-to-use Click2Call API built on top of WebRTC,
+Telecmi provides a complete, configurable, and easy-to-use Click2Call API which built on top of WebRTC.
 
 ### [Telecmi](http://telecmi.com)
 
@@ -14,7 +14,7 @@ Telecmi provides a complete, configurable, and easy-to-use Click2Call API built 
 ```
 
 **Create Telecmi Object**  
-Following syntax used to initilize telecmi object 
+Following syntax used to initialize telecmi object 
 ```javascript
 var telecmi = new Telecmi(); 
 ```
@@ -42,7 +42,7 @@ telecmi.startC2C()
 ## Internet calls
 **Call**
 
-Using this syntax you can make outbound call to you application
+Using this syntax you can make outbound calls to your application
 ```javascript
   telecmi.call('your internetno');
   //Inetnetno is nothing but your APP ID
@@ -64,7 +64,7 @@ Using this syntax you can mute and unmute your mic
 ```
 **DTMF**
 
-Using this syntax you can send dtmf tone to your APP
+Using this syntax you can send dtmf tone to your Application
 
 ```javascript
   telecmi.key('1');
